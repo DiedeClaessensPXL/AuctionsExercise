@@ -16,7 +16,7 @@ import java.time.temporal.ChronoUnit;
 @NamedQueries({
 		@NamedQuery(name = "findUserByEmail", query = "SELECT u FROM User u WHERE u.email=:email"),
 		@NamedQuery(name = "findAllUsers", query = "SELECT u FROM User u") })
-public class User {
+public class  User {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)

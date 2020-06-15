@@ -30,6 +30,7 @@ public abstract class DaoTest {
 		}
 		if (emf != null) {
 			emf.close();
+
 		}
 	}
 
